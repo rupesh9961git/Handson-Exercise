@@ -30,7 +30,11 @@ pip install -r requirements.txt
 
 ### 2. Configure environment
 
-Copy `.env` and fill in your credentials:
+Copy `.env.example` to `.env` and fill in your credentials:
+
+```bash
+cp .env.example .env
+```
 
 ```env
 # Ollama
